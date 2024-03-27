@@ -1,7 +1,17 @@
 {
-  "name": "dropdown-menu",
+  "name": "@kherset/dropdown-menu",
+  "description": "C'est un composant react d'un menu deroulant utilise pour le projet wealth health d'OpenClassrooms",
   "version": "0.1.0",
-  "private": true,
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "module": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yan-Coquoz/Mes_modules"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
