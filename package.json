@@ -10,7 +10,7 @@
   "module": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yan-Coquoz/Mes_modules"
+    "url": "https://github.com/Kherset/dropdown-menu.git"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -23,26 +23,21 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "rm -rf dist && NODE_ENV=production npx babel src/lib --out-dir dist --copy-files --presets=@babel/preset-react --ignore __tests__,spec.js,test.js,__snapshots__",
+    "clean": "rm -rf dist coverage",
+    "clean:fix": "rm -rf node_modules coverage build dist docs package-lock.json"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
