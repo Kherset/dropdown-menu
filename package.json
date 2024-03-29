@@ -12,6 +12,13 @@
     "type": "git",
     "url": "https://github.com/Kherset/dropdown-menu.git"
   },
+  "keywords": [
+    "dropdown",
+    "menu",
+    "react",
+    "component"
+  ],
+  "author": "Twardowski Jeremy",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
