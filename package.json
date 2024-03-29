@@ -1,7 +1,7 @@
 {
   "name": "@kherset/dropdown-menu",
   "description": "C'est un composant react d'un menu deroulant utilise pour le projet wealth health d'OpenClassrooms",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "files": [
     "dist",
