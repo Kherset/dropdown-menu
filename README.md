@@ -1,13 +1,13 @@
 # Module - Dropdown menu
 
-Thank you for downloading this module allowing you to use a customizable dropdown menu. To include it in your project, here are the steps to follow:#
+Thank you for downloading this module allowing you to use a customizable dropdown menu. To include it in your project, here are the steps to follow:
 
-Getting Started
-Prerequisites
+- Getting Started
+- Prerequisites
 
-Node.js v16.15.1
-React.js v18.2.0
-Please make sure you have the right versions and download both packages. You can verify this by using the following commands in your terminal:
+- Node.js v16.15.1
+- React.js v18.2.0
+- Please make sure you have the right versions and download both packages. You can verify this by using the following commands in your terminal:
 
 # Check Node.js version
 
@@ -19,6 +19,12 @@ npm list react
 
 # Instructions
 
-Installation : npm install @kherset/dropdown-menu
-import { DropdownMenu } from "@kherset/dropdown-menu" in your project
-Please refer to the JSDoc on this page: https://github.com/Kherset/dropdown-menu/blob/master/dist/components/DropDownMenu.js to configure the dropdown menu
+- Installation : npm install @kherset/dropdown-menu
+- import { DropdownMenu } from "@kherset/dropdown-menu" in your project
+- Please refer to the JSDoc on this page: https://github.com/Kherset/dropdown-menu/blob/master/dist/components/DropDownMenu.js to configure the dropdown menu
+
+## Captures d'écran
+
+![Capture d'écran 1](./public/img/example1.png)
+![Capture d'écran 2](./public/img/example2.png)
+![Capture d'écran 3](./public/img/example3.png)
